@@ -1,11 +1,12 @@
 import React, { createContext, useState } from 'react';
+import { TokensData } from '../data/TokensData';
 
 const TokensContext = createContext();
 const SetTokensContext = createContext();
 
 const TokensProvider = ({ children }) => {
 
-    const [tokens, setTokens] = useState();
+    const [tokens, setTokens] = useState(TokensData);
 
     return (
         <TokensContext.Provider value={tokens}>

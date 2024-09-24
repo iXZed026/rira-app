@@ -1,9 +1,14 @@
 import React from 'react';
 import "./App.css";
+import TokensProvider from './context/TokensProvider';
 
 const App = () => {
   return (
-    <div>app</div>
+    <div className='app'>
+      <TokensProvider>
+        
+      </TokensProvider>
+    </div>
   )
 }
 
