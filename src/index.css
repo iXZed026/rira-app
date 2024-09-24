@@ -16,6 +16,7 @@
 }
 
 body {
+  direction: rtl;
   color: var(--font-color);
   background-color: var(--bg-color);
 }
