@@ -3,7 +3,13 @@ import "./Wallet.css"
 
 const Wallet = () => {
   return (
-    <div>Wallet</div>
+    <div className="wallet">
+      <div className="wallet-container">
+        <div className="wallet-flex">
+          Connect Wallet
+        </div>
+      </div>
+    </div>
   )
 }
 
