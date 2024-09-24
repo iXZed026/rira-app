@@ -3,9 +3,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      app
-    </div>
+    <div>app</div>
   )
 }
 
