@@ -2,6 +2,8 @@ import React from 'react';
 import "./Header.css";
 import NavBar from './Nav/NavBar';
 import { FaRegCopyright } from "react-icons/fa6";
+import Asset from './Asset/Asset';
+import Wallet from './Wallet/Wallet';
 
 const Header = () => {
     return (
@@ -15,7 +17,8 @@ const Header = () => {
                         <NavBar />
                     </div>
                     <div className="header-left-items">
-                        
+                        <Asset />
+                        <Wallet />
                     </div>
                 </div>
             </div>

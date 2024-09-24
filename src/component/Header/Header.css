@@ -1,0 +1,33 @@
+header {
+    background-color: var(--bg-color);
+    box-shadow: 0 0 8px var(--first-color);
+    padding: 1.2% 0;
+}
+
+.header-container {
+    width: 90%;
+    margin: auto;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right-items {
+    width: 50%;
+    display: flex;
+}
+
+.header-left-items {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-logo svg {
+    color: var(--first-color);
+    font-size: 27px;
+}
