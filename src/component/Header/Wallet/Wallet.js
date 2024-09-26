@@ -34,7 +34,7 @@ const Wallet = () => {
         </div>
       </div >
       {openModal && <ConnectWallet setOpenModal={setOpenModal} setWalletId={setWalletId} />}
-      {disconnectModal && <DisconnectWallet walletId={walletId} />}
+      {disconnectModal && <DisconnectWallet walletId={walletId} setWalletId={setWalletId} setDisconnectModal={setDisconnectModal} />}
     </>
   )
 }
