@@ -1,6 +1,6 @@
 export const tonKeeperId = [
-    "Uq9sf...fv34",
-    "bmssf...fv34",
-    "D56f...a2fq",
-    "2sff...g41g",
+    "0xUq9sf...fv34",
+    "0xbmssf...fv34",
+    "0xD56f...a2fq",
+    "0x2sff...g41g",
 ]
