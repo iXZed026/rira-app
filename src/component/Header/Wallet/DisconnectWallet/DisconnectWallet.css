@@ -14,7 +14,7 @@
     width: 370px;
     background-color: black;
     border-radius: 10px;
-    padding: 14px 10px;
+    padding: 15px 10px;
     animation: modalAni .75s ease-in-out 1 alternate;
 }
 
@@ -51,7 +51,7 @@
 
 .disconnect-wallet-body {
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 #disconnect-wallet-picture {
@@ -59,7 +59,7 @@
     height: 80px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@
 
 .disconnect-wallet-footer button {
     width: 49%;
-    padding: 2.5px 0;
+    padding: 3.5px 0;
     color: var(--font-color);
     border-radius: 8px;
     background-color: rgba(55, 54, 54, 0.495);
@@ -94,7 +94,8 @@
 
 .disconnect-wallet-footer button:hover {
     transition: .3s;
-    opacity: 0.7;
+    color: var(--first-color);
+    background-color: rgba(87, 87, 87, 0.495);
 }
 
 .disconnect-wallet-footer button svg {

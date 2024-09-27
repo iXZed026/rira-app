@@ -1,13 +1,16 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import "./DisconnectWallet.css";
 import { IoCloseSharp } from "react-icons/io5";
 import { MdOutlineContentCopy } from "react-icons/md";
 import { RiLogoutBoxRLine } from "react-icons/ri"
+import Copy from '../Copy/Copy';
 
 const DisconnectWallet = (props) => {
 
     const { walletId, setWalletId, setDisconnectModal } = props;
+
     const modalRef = useRef(null);
+    const [copyModal, setCopyModal] = useState(false);
 
     const closeModalHandler = () => {
         //Set animation after close
@@ -28,6 +31,10 @@ const DisconnectWallet = (props) => {
     const handleCopyText = () => {
         if (walletId) {
             navigator.clipboard.writeText(walletId)
+                .then(() => {
+                    setCopyModal(true);
+                    setTimeout(() => setCopyModal(false), 3500)
+                })
         }
     }
 
@@ -42,10 +49,11 @@ const DisconnectWallet = (props) => {
                     </div>
                     <div className="disconnect-wallet-footer">
                         <button onClick={disconnectWalletHandler}><RiLogoutBoxRLine />لغو اتصال</button>
-                        <button><MdOutlineContentCopy onClick={handleCopyText} />کپی</button>
+                        <button onClick={handleCopyText}><MdOutlineContentCopy />کپی</button>
                     </div>
                 </div>
             </div>
+            {copyModal && <Copy />}
         </div >
     )
 }
