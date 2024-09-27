@@ -8,6 +8,11 @@
     align-items: center;
 }
 
+.wallet:hover {
+    transition: .3s;
+    border: 2px solid var(--font-color);
+}
+
 .wallet-container {
     width: 90%;
     margin: auto;
