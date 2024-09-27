@@ -1,0 +1,41 @@
+.swap-info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 89vh;
+}
+
+.swap-info-container {
+    width: 85%;
+}
+
+#swap-title {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+#swap-title span:last-child {
+    color: var(--first-color);
+}
+
+.swap-description {
+    width: 80%;
+    margin-bottom: 18px;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.swap-info-button button {
+    width: 110px;
+    height: 38px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--first-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.swap-info-button button:hover {
+    transition: .3s;
+    opacity: .6;
+}

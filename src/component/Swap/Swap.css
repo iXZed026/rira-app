@@ -1,0 +1,15 @@
+.swap {
+    width: 100%;
+    height: 90vh;
+}
+
+.swap-container {
+    width: 85%;
+    margin: auto;
+}
+
+.swap-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
