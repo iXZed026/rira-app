@@ -10,7 +10,7 @@ const Balance = ({ numberOfTokens, tokenValue }) => {
             <div className="balance-container">
                 <div className="balance-flex">
                     <div className="balance-information">
-                        <span>{numberOfTokens}</span>
+                        <span>{numberOfTokens.toLocaleString()}</span>
                         <span> {tokenValue} </span>
                     </div>
                     <div className="balance-logo"><FaFileInvoiceDollar /></div>

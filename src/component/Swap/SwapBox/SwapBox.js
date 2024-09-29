@@ -96,7 +96,8 @@ const SwapBox = ({ inputRef }) => {
                     )
                 );
             }
-            setSendInputValue("")
+            setSendInputValue("");
+            alert("معامله با موفقیت انجام شد. موجودی خود را چک کنید.")
         } else {
             alert(`موجودی ${sendTokensValue} کافی نیست!`)
         }
