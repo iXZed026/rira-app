@@ -6,7 +6,7 @@
 }
 
 .swap-info-container {
-    width: 85%;
+    width: 540px;
 }
 
 #swap-title {
@@ -19,7 +19,7 @@
 }
 
 .swap-description {
-    width: 80%;
+    width: 450px;
     margin-bottom: 18px;
     line-height: 28px;
     font-size: 15px;
@@ -38,4 +38,31 @@
 .swap-info-button button:hover {
     transition: .3s;
     opacity: .6;
+}
+
+/*Responsive */ 
+
+@media screen and (max-width:1200px) {
+    .swap-info {
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+    }
+
+    .swap-info-container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .swap-description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .swap-info {
+        height: 100vh;
+    }
 }

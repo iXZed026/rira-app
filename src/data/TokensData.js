@@ -1,6 +1,6 @@
 export const TokensData = [
-    { id: 1, tokenLogo: "rialsLogo.svg", tokenName: "Toman", price: 0, numberOfTokens: 0, description: "" },
-    { id: 2, tokenLogo: "usdtLogo.svg", tokenName: "Usdt", price: 60_000, numberOfTokens: 20_000, description: "" },
-    { id: 3, tokenLogo: "bitcoinLogo.svg", tokenName: "Btc", price: 3_400_000, numberOfTokens: 0, description: "" },
-    { id: 4, tokenLogo: "tonLogo.svg", tokenName: "Ton", price: 330_000, numberOfTokens: 0, description: "" },
+    { id: 2, tokenLogo: "usdtLogo.svg", tokenName: "Usdt", tokenValue: "USDT", rialPrice: 60_000, dolarPrice: 0, numberOfTokens: 20_000, description: "" },
+    { id: 1, tokenLogo: "rialsLogo.svg", tokenName: "Toman", tokenValue: "RIAL", rialPrice: 0, dolarPrice: 0.1666, numberOfTokens: 0, description: "" },
+    { id: 3, tokenLogo: "bitcoinLogo.svg", tokenName: "Btc", tokenValue: "BTC", rialPrice: 3_900_000, dolarPrice: 65_000, numberOfTokens: 10, description: "" },
+    { id: 4, tokenLogo: "tonLogo.svg", tokenName: "Ton", tokenValue: "TON", rialPrice: 330_000, dolarPrice: 5.9, numberOfTokens: 1_000, description: "" },
 ]

@@ -8,7 +8,7 @@ const Asset = () => {
     //Use Tokens Data 
     const tokens = useContext(TokensContext);
     // Dolar
-    const usdt = tokens[1].numberOfTokens.toLocaleString();
+    const usdt = tokens[0].numberOfTokens.toLocaleString();
 
     return (
         <div className="asset">
