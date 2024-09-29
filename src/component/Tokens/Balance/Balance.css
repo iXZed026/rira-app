@@ -1,21 +1,24 @@
-.asset {
+.balance{
     width: 170px;
     border: 1px solid var(--first-color);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    position: absolute;
+    left:5%;
+    bottom: 10px;
 }
 
-.asset-container {
+.balance-container {
     margin: auto;
 }
 
-.asset-flex {
+.balance-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.asset-logo {
+.balance-logo {
     width: 40px;
     height: 35px;
     display: flex;
@@ -26,16 +29,16 @@
     border-bottom-right-radius: 7px;
 }
 
-.asset-logo:hover {
+.balance-logo:hover {
     transition: .3s;
     opacity: .7;
 }
 
-.asset-logo svg {
+.balance-logo svg {
     font-size: 17px;
 }
 
-.asset-information {
+.balance-information {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -43,12 +46,4 @@
     /* font-size: 13.5px; */
     padding: 0 5%;
     font-size: 12.5px;
-}
-
-/* Responsive */
-
-@media screen and (max-width:700px) {
-    .asset {
-        width: 210px;
-    }
 }

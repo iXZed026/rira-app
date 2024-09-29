@@ -1,0 +1,43 @@
+.tokens-item {
+    width: 250px;
+    height: 250px;
+    padding: 10px 5px;
+    background-color: rgba(136, 134, 134, 0.103);
+    position: relative;
+}
+
+.tokens-item-container {
+    width: 90%;
+    margin: auto    ;
+}
+
+.tokens-item-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tokens-item-logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.tokens-total-supply {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: var(--first-color);
+}
+
+.tokens-description {
+    width: 160px;
+    font-size: 15.1px;
+    font-weight: bold;
+}
+
+/* Responsive */
+
+@media screen and (max-width:650px){
+    .tokens-item {
+        width: 300px;
+        height: 260px;
+} 
+    }

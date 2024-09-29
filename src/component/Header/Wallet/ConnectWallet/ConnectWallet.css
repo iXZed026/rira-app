@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 
@@ -16,13 +17,13 @@
     background-color: black;
     margin: auto;
     border-radius: 10px;
-    padding: 1.5%;
+    padding: 30px;
     animation: modalAni .75s ease-in-out 1 alternate;
 }
 
 @keyframes modalAni {
     0% {
-        transform: translate(0, 550px);
+        transform: translate(0, 1000px);
     }
 }
 
@@ -31,13 +32,13 @@
     background-color: black;
     margin: auto;
     border-radius: 10px;
-    padding: 1.5%;
+    padding: 30px;
     animation: closeModalAni .8s ease-in-out 1;
 }
 
 @keyframes closeModalAni {
     100% {
-        transform: translate(0, 550px);
+        transform: translate(0, 1000px);
     }
 }
 
@@ -139,4 +140,36 @@
 .wallets-information-items div p {
     font-size: 14px;
     opacity: .7;
+}
+
+/* Responsive */ 
+
+@media screen and (max-width:900px) {
+
+    .select-wallet-container{
+        width: 90%;
+        padding: 25px 50px;
+    }
+
+    .select-wallet-flex {
+        flex-direction: column;
+    }
+
+    .wallets {
+        width: 100%;
+        height: auto;
+    }
+
+    .wallets-information {
+        width: 100%;
+    }
+
+    .wallet-items {
+        width: 100%;
+    }
+
+    .wallets-information-items div {
+        width: 100%;
+    }
+
 }
