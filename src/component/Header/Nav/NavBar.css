@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+nav ul li:hover {
+    transition: .6s;
+    color: var(--first-color);
+}

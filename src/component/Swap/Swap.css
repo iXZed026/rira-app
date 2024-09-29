@@ -1,0 +1,30 @@
+.swap {
+    width: 100%;
+    height: 90vh;
+}
+
+.swap-container {
+    width: 85%;
+    margin: auto;
+}
+
+.swap-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width:1200px) {
+    .swap {
+        height: 100vh;
+    }
+    .swap-container{
+        width: 95%;
+    }
+
+    .swap-flex {
+        flex-direction: column;
+    }
+}

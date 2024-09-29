@@ -16,6 +16,7 @@
 }
 
 body {
+  direction: rtl;
   color: var(--font-color);
   background-color: var(--bg-color);
 }
@@ -24,3 +25,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

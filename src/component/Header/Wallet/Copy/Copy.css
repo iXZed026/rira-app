@@ -1,0 +1,35 @@
+.copy {
+    width: 150px;
+    margin: auto;
+    position: fixed;
+    top: 10px;
+    background-color: var(--font-color);
+    border-radius: 6px;
+    color: black;
+    animation: copyAni 1s ease-in-out 1;
+}
+
+@keyframes copyAni {
+    0%{
+        transform: translate(0,-100px);
+    }
+}
+
+.copy-container {
+    width: 90%;
+    margin: auto;
+}
+
+.copy-flex {
+    display: flex;
+    height: 30px;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.copy-flex svg {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--first-color);
+}

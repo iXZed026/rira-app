@@ -1,0 +1,125 @@
+.swap-box {
+    width: 50%;
+    direction: ltr;
+}
+
+.swap-box-container {
+    width: 540px;
+    padding: 28px 10px;
+    margin-right: auto;
+    background-color: var(--first-color);
+    border-radius: 8px;
+}
+
+.swap-box-header {
+    margin-bottom: 10px;
+}
+
+.swap-box-header h2 {
+    font-size: 15px;
+}
+
+.swap-box-body {
+    width: 100%;
+    position: relative;
+}
+
+.send-input,
+.receive-input {
+    width: 100%;
+    background-color: var(--bg-color);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.send-input input,
+.receive-input input {
+    width: 80%;
+    height: 65px;
+    border: none;
+    outline: navajowhite;
+    background-color: transparent;
+    color: var(--font-color);
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+
+.send-input select,
+.receive-input select {
+    width: 15%;
+    height: 37px;
+    background-color: rgb(54, 54, 54);
+    color: var(--font-color);
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.exchange-tokens {
+    width: 40px;
+    font-size: 25px;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    cursor: pointer;
+}
+
+.exchange-tokens:hover {
+    transition: .3s;
+    /* color: var(--first-color); */
+    background-color: rgb(54, 54, 54);
+}
+
+.swap-box-footer {
+    width: 100%;
+}
+
+.swap-box-footer button {
+    width: 100%;
+    height: 40px;
+    color: var(--font-color);
+    border: none;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    cursor: pointer;
+}
+
+.swap-box-footer button:hover {
+    opacity: .9;
+}
+
+/*Responsive */
+
+@media screen and (max-width:1200px) {
+    .swap-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swap-box-container {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .swap-box {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swap-box-container {
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,32 @@
+.wallet {
+    width: 170px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.238);
+    height: 35px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wallet:hover {
+    transition: .3s;
+    border: 2px solid var(--font-color);
+}
+
+.wallet-container {
+    width: 90%;
+    margin: auto;
+}
+
+.no-connection-wallet {
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.no-connection-wallet span {
+    font-size: 13px;
+    font-weight: bold;
+}
