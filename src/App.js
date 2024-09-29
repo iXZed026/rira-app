@@ -3,6 +3,7 @@ import "./App.css";
 import Header from './component/Header/Header';
 import TokensProvider from './context/TokensProvider';
 import Swap from './component/Swap/Swap';
+import Tokens from './component/Tokens/Tokens';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <TokensProvider>
         <Header />
         <Swap />
+        <Tokens />
       </TokensProvider>
     </div>
   )
